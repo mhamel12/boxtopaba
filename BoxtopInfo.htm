@@ -1,0 +1,96 @@
+<html>
+<head>
+<style type="text/css">
+<!--
+h1 { font-family: Georgia, Verdana, Arial, sans-serif;
+   }
+h2 { font-family: Georgia, Verdana, Arial,  sans-serif;
+   }
+h3 { font-family: Georgia, Verdana, Arial,  sans-serif;
+   }
+h4 { font-family: Verdana, Arial,  sans-serif;
+   }
+h5 { font-family: Verdana, Arial,  sans-serif;
+   }
+table, th, td { border:1px solid gray; border-collapse:collapse
+ }
+td { font-family: Georgia, Verdana, Arial,  sans-serif;
+   }
+th { font-family: Georgia, Verdana, Arial,  sans-serif; color: black
+   }
+thead { font-family: Georgia, Verdana, Arial,  sans-serif; background-color: lightgray
+   }
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+ background-color: #8dbdd8;
+   }
+-->
+</style>
+<title>BOXTOP Information - BOXTOP</title>
+</head>
+<h1>BOXTOP Information</h1>
+<h2>Boxtop Flexible Basketball Boxscore Format</h2>
+<p>This format is designed to allow storage of multiple boxscores in a single file.
+<br>The concept for this format is loosely based on Retrosheet's baseball "Box Score Event Files" (BSEF format: see <a href="http://www.retrosheet.org">Retrosheet</a> for details) but has been adapted for basketball.
+<p>What follows is a list of identification fields. Anything listed in ALL CAPS is variable data. The .csv files created by boxtop.pl strictly follow this format, but that is not required. Tools written to parse this format should be written such that the order of the fields does not matter (except in rare cases), and missing fields must be tolerated.
+<hr>
+<h2>1. Format fields</h2>
+<br><strong>gamebxt</strong>   (sentinel to denote the start of a new boxscore)
+<br><strong>version,NUMBER</strong>   (NUMBER always 1 for now)
+<hr>
+<h2>2. Information fields</h2>
+<br><strong>info,date,MONTH/DAY/FOURDIGITYEAR</strong>
+<br><strong>info,dayofweek,DAY OF THE WEEK</strong>
+<br><strong>info,gamenumber,GAME NUMBER</strong> (defaults to 1, and usually omitted, unless set to 2 if a second game was played between the SAME teams on the same day)
+<br><strong>info,rteam,ROADTEAMFULLNAME</strong>
+<br><strong>info,hteam,HOMETEAMFULLNAME</strong>
+<br><strong>info,title,OPTIONAL USE FOR PLAYOFF GAMES</strong> (example: 1964 NBA Finals Game 1)
+<br><strong>info,arena,ARENA</strong>
+<br><strong>info,city,CITY</strong>
+<br><strong>info,state,STATE</strong>
+<br><strong>info,country,COUNTRY</strong>
+<br><strong>info,attendance,ATT</strong>
+<br><strong>info,ref,REFEREE NAME</strong> (one line per referee)
+<br><strong>info,starttime,00:00PM</strong>
+<br><strong>info,timezone,ET/CT/MT/PT</strong>
+<br><strong>info,radio,RADIO INFORMATION</strong>
+<br><strong>info,tv,TELEVISION INFORMATION</strong>
+<br><strong>info,note,MISC NOTES ON THE BOXSCORE OR THE GAME</strong>
+<br><strong>info,prelim,NON-NBA GAME THAT PROCEEDED OR FOLLOWED THIS GAME</strong> (if applicable)
+<br><strong>info,event,SPECIAL EVENT</strong> (e.g. Bob Cousy Day, etc.)
+<br><strong>info,techs,TECHNICAL FOULS</strong> (more efficient to list here instead of in the individual player and coach statistics lines if the data is not proofed)
+<hr>
+<h2>3. Coach fields</h2>
+<br><strong>coach,rteam|hteam,ID,FIRSTNAME,LASTNAME,TECHNICALFOUL</strong>
+<p>Note that "rteam|hteam" means that either rteam or hteam must appear in that location
+<p>ID = first five letters of last name, first two letters of first name, then a unique two-digit number (01, 02, etc.) that distinguishes players who have the same first/last name but are different people.
+<br>This format matches the page format used by <a href="http://www.basketball-reference.com">Basketball-Reference.com</a>, so if you use the same id, you can link directly to that site as follows:
+<br>http://www.basketball-reference.com/coaches/<id>c.html where id is 99 if the coach never played professionally, or matches their player id.
+<hr>
+<h2>4. Player statistics fields</h2>
+<br><strong>stat,rteam|hteam,player,ID,FIRSTNAME,LASTNAME,MIN,FGM,FGA,FTM,FTA,3FGM,3FGA,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TECHNICALFOUL</strong>
+<p>ID = first five letters of last name, first two letters of first name, then a unique two-digit number (01, 02, etc.) that distinguishes players who have the same first/last name but are different people.
+<br>This format matches the page format used by <a href="http://www.basketball-reference.com">Basketball-Reference.com</a>, so if you use the same id, you can link directly to that site as follows:
+<br>http://www.basketball-reference.com/players/<last initial>/<id>.html
+<p>A blank indicates that that statistic is not available.
+<hr>
+<h2>5. Team statistics fields</h2>
+<br><strong>tstat,rteam|hteam,MIN,FGM,FGA,FTM,FTA,FG3M,FG3A,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TEAMREBOUNDS,TECHNICALFOUL</strong>
+<hr>
+<h2>6. Linescores (quarter-by-quarter results)</h2>
+<br><strong>linescore,rteam|hteam,Q1,Q2,Q3,Q4,[OT],[OT2],...,:,FINAL</strong>
+<p>If you only know the final score (which for pro games are obtainable from several sources) then you can shorten the format as follows:
+<br><strong>linescore,rteam|hteam,FINAL</strong>
+<hr>
+<h2>7. Special sentinels</h2>
+<p><strong>sources,LIST OF SOURCES</strong>
+<p><strong>playoffsstarthere</strong> ("playoffs start here" - introduced for ABA boxscores where it was more useful to have a sentinel to separate regular season from playoffs)
+<p><strong>ignore,ITEM TO IGNORE</strong> (but may be useful future reference or as a "TO DO" item.)
+<p><strong>abatiebreaker</strong> (This game will be excluded from player and team totals on the statistics pages, but WILL be included in playoff game logs and splits. Place AFTER gamebxt for the game.)
+<p><strong>pointsscoredbyopponent,rteam|hteam,FG,TOTALPOINTS,player,points,player,points...(player list is optional and currently unused)</strong> (Used in cases where a player scored points for the opposing team)
+<hr>
+<table style="border: 0px"><tr><td style="width:75px; border: 0px"><img src="boxtop_70s_logo_footer.png"></td><td style="border: 0px">
+<p>This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.<br>To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>
+<p>Web page created at 19:42:59 on 09/08/2014 using ABAboxtopinfopage.pl based on <a href="http://www.michaelhamel.net/boxtop-project">boxtop format data</a>, (c) 2010-2014 Michael Hamel.
+<p>Recommended Citation: The information used here was obtained free of charge from and is copyrighted by the <a href="http://www.michaelhamel.net/boxtop-project">Basketball BOXTOP Project</a>.
+<p>Major Sources: The Sporting News (TSN), <a href="http://www.Basketball-Reference.com">Basketball-Reference.com</a>, <a href="http://www.remembertheaba.com">RememberTheABA.com</a>, and <a href="http://webuns.chez-alice.fr/home.htm">http://webuns.chez-alice.fr/home.htm</a> (W, referenced by <a href="http://www.apbr.org">APBR.org</a>).
+</td></tr></table>
