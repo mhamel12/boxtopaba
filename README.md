@@ -1,5 +1,5 @@
 # boxtopaba
-Scripts for processing basketball box scores
+Scripts for entering and processing basketball box scores
 
 The scripts in this repository were used during the processing of ABA box scores but could be modified to work with basketball games in general. Every box score in ABA league history, from 1967-68 through 1975-76, was digitized using these scripts. The results of this work are posted at http://michaelhamel.net/boxtop-aba/ but the raw data was also provided to Pro Basketball Reference in 2015 (http://www.sports-reference.com/blog/2015/03/aba-box-scores-splits-added/) and 2016 (http://www.sports-reference.com/blog/2016/02/find-every-box-score-in-aba-history/).
 
