@@ -1,0 +1,253 @@
+gamebxt
+version,1
+info,date,10/26/1972
+info,dayofweek,Thursday
+info,rteam,Denver Rockets
+info,hteam,Virginia Squires
+info,title,
+info,arena,Richmond Coliseum
+info,city,Richmond
+info,state,Virginia
+info,country,USA
+info,attendance,4643
+info,ref,
+info,ref,
+info,starttime,
+info,timezone,
+info,radio,
+info,tv,
+coach,rteam,hannual01c,Alex,Hannum,
+ignore,HEADER,player,ID,FIRSTNAME,LASTNAME,MIN,FGM,FGA,FTM,FTA,3FGM,3FGA,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TECHNICALFOUL
+stat,rteam,player,roberma01,Marv,Roberts,25,6,,2,5,0,,14,,9,0,6,,,,
+stat,rteam,player,beckby01,Byron,Beck,33,10,,0,0,0,,20,,11,0,6,,,,
+stat,rteam,player,keyeju01,Julius,Keye,27,0,,3,7,0,,3,,10,2,5,,,,
+stat,rteam,player,smithal01,Al,Smith,29,0,,1,2,0,,1,,2,4,6,,,,
+stat,rteam,player,simpsra01,Ralph,Simpson,33,7,,3,6,0,,17,,4,3,6,,,,
+stat,rteam,player,jabalwa01,Warren,Jabali,21,1,,3,7,1,,6,,3,4,6,,,,
+stat,rteam,player,bustida01,David,Bustion,23,7,,7,9,0,,21,,9,1,6,,,,
+stat,rteam,player,terrycl01,Claude,Terry,9,1,,2,3,0,,4,,5,1,6,,,,
+stat,rteam,player,robisda01,Dave,Robisch,23,5,,0,0,0,,10,,7,0,5,,,,
+stat,rteam,player,longwi01,Willie,Long,17,5,,5,6,0,,15,,9,1,4,,,,
+ignore,THEADER,MIN,FGM,FGA,FTM,FTA,FG3M,FG3A,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TEAMREBOUNDS,TECHNICALFOUL
+tstat,rteam,,42,,26,45,1,,111,,69,16,56,,,,,
+linescore,rteam,26,26,28,31,:,111
+coach,hteam,biancal01c,Al,Bianchi,
+ignore,HEADER,player,ID,FIRSTNAME,LASTNAME,MIN,FGM,FGA,FTM,FTA,3FGM,3FGA,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TECHNICALFOUL
+stat,hteam,player,ligongo01,Goose,Ligon,23,2,,2,3,0,,6,,6,0,3,,,,
+stat,hteam,player,ervinju01,Julius,Erving,33,7,,8,10,0,,22,,11,8,3,,,,
+stat,hteam,player,eakinji01,Jim,Eakins,30,1,,7,9,0,,9,,7,1,2,,,,
+stat,hteam,player,taylofa01,Fatty,Taylor,24,5,,7,8,0,,17,,2,3,0,,,,
+stat,hteam,player,barrmi01,Mike,Barr,25,7,,0,0,0,,14,,1,3,2,,,,
+stat,hteam,player,sandeal01,Al,Sanders,6,0,,9,11,0,,9,,4,2,2,,,,
+stat,hteam,player,willibe01,Bernie,Williams,17,2,,10,10,0,,14,,3,1,3,,,,
+stat,hteam,player,twardda01,Dave,Twardzik,24,2,,12,14,0,,16,,5,5,2,,,,
+stat,hteam,player,shephbi01,Billy,Shepherd,5,0,,6,8,0,,6,,0,1,1,,,,
+stat,hteam,player,frankwi01,William,Franklin,15,5,,5,9,1,,16,,5,1,4,,,,
+stat,hteam,player,irvinge01,George,Irvine,19,6,,4,5,0,,16,,4,2,2,,,,
+stat,hteam,player,sojouwi01,Willard,Sojourner,18,3,,4,5,0,,10,,7,3,4,,,,
+ignore,THEADER,MIN,FGM,FGA,FTM,FTA,FG3M,FG3A,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TEAMREBOUNDS,TECHNICALFOUL
+tstat,hteam,,40,,74,92,1,,155,,55,30,30,,,,,
+linescore,hteam,30,33,39,53,:,155
+info,note,On November 6, this game was declared a 2-0 forfeit in favor of Virginia due to Denver's strategy of fouling as many shooters as possible. Seven Rockets fouled out: Roberts, Beck, Smith, Simpson, Jabali, Bustion, and Terry.
+info,techs,Hannum, Denver team 2
+sources,TSN NNDP
+
+
+gamebxt
+version,1
+info,date,11/14/1973
+info,dayofweek,Wednesday
+info,rteam,Indiana Pacers
+info,hteam,San Antonio Spurs
+info,title,
+info,arena,HemisFair Arena
+info,city,San Antonio
+info,state,Texas
+info,country,USA
+info,attendance,4118
+info,ref,Ed Middleton
+info,ref,Jess Kersey
+info,starttime,
+info,timezone,
+info,radio,
+info,tv,
+coach,rteam,leonasl01c,Slick,Leonard,
+stat,rteam,player,hillmda01,Darnell,Hillman,48,4,10,2,2,0,0,10,,9,1,3,,,,
+stat,rteam,player,mcginge01,George,McGinnis,48,5,19,10,16,0,0,20,,19,2,4,,,,
+stat,rteam,player,danieme01,Mel,Daniels,23,3,7,2,2,0,0,8,,4,1,4,,,,
+stat,rteam,player,freemdo01,Donnie,Freeman,41,10,17,5,8,0,0,25,,2,4,3,,,,
+stat,rteam,player,lewisfr02,Freddie,Lewis,28,2,6,0,0,1,1,5,,1,6,4,,,,
+stat,rteam,player,kellebi01,Bill,Keller,21,3,6,0,0,0,1,6,,1,2,0,,,,
+stat,rteam,player,brownro02,Roger,Brown,25,3,8,2,3,0,1,8,,4,1,1,,,,
+stat,rteam,player,joyceke01,Kevin,Joyce,6,1,1,0,0,0,0,2,,1,0,1,,,,
+tstat,rteam,240,31,74,21,31,1,3,84,,41,17,20,,,,5,
+linescore,rteam,22,19,25,18,:,84
+coach,hteam,nissato99c,Tom,Nissalke,
+stat,hteam,player,jonesri01,Rich,Jones,45,8,20,2,2,0,0,18,,7,7,4,,,,
+stat,hteam,player,kennego01,Goo,Kennedy,23,4,6,2,4,0,0,10,,14,1,5,,,,
+stat,hteam,player,dietrco01,Coby,Dietrick,35,4,11,0,0,0,0,8,,14,8,6,,,,
+stat,hteam,player,hamiljo01,Joe,Hamilton,40,4,13,1,1,0,3,9,,1,2,0,,,,
+stat,hteam,player,silasja01,James,Silas,41,5,15,2,2,0,0,12,,3,4,4,,,,
+stat,hteam,player,chambje01,Jerry,Chambers,9,1,5,0,0,0,0,2,,0,0,3,,,,
+stat,hteam,player,karlge01,George,Karl,15,3,5,0,0,0,0,6,,2,2,0,,,,
+stat,hteam,player,hillsi01,Simmie,Hill,15,6,9,0,0,0,0,12,,3,0,6,,,,
+stat,hteam,player,brownro02,Roger,Brown,17,3,3,0,0,0,0,6,,4,0,4,,,,
+tstat,hteam,240,38,87,7,9,0,3,83,,48,24,32,,,,3,
+linescore,hteam,23,24,20,16,:,83
+info,note,Game was protested and completed on December 2.
+info,techs,McGinnis
+sources,TSN IS
+
+
+gamebxt
+version,1
+info,date,11/14/1973
+info,dayofweek,Wednesday
+info,rteam,Indiana Pacers
+info,hteam,San Antonio Spurs
+info,title,
+info,arena,HemisFair Arena
+info,city,San Antonio
+info,state,Texas
+info,country,USA
+info,attendance,4118
+info,ref,
+info,ref,
+info,starttime,
+info,timezone,
+info,radio,
+info,tv,
+coach,rteam,leonasl01c,Slick,Leonard,
+ignore,HEADER,player,ID,FIRSTNAME,LASTNAME,MIN,FGM,FGA,FTM,FTA,3FGM,3FGA,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TECHNICALFOUL
+stat,rteam,player,hillmda01,Darnell,Hillman,,5,10,2,2,0,,12,,9,1,,,,2,
+stat,rteam,player,mcginge01,George,McGinnis,,6,19,13,21,0,,25,,19,2,,,,2,
+stat,rteam,player,danieme01,Mel,Daniels,,3,7,2,2,0,,8,,4,1,,,,0,
+stat,rteam,player,freemdo01,Donnie,Freeman,,10,17,5,8,0,,25,,2,4,,,,0,
+stat,rteam,player,lewisfr02,Freddie,Lewis,,1,6,0,0,0,,2,,1,6,,,,1,
+stat,rteam,player,kellebi01,Bill,Keller,,3,5,0,0,0,,6,,1,2,,,,1,
+stat,rteam,player,brownro01,Roger,Brown,,3,8,2,3,0,,8,,4,1,,,,0,
+stat,rteam,player,joyceke01,Kevin,Joyce,,1,1,0,0,0,,2,,1,0,,,,0,
+stat,rteam,player,netolbo01,Bob,Netolicky,,1,1,0,0,0,,2,,0,0,,,,0,
+ignore,THEADER,MIN,FGM,FGA,FTM,FTA,FG3M,FG3A,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TEAMREBOUNDS,TECHNICALFOUL
+tstat,rteam,,33,74,24,36,0,,90,,41,17,22,,,6,,
+linescore,rteam,22,19,25,17,7,:,90
+coach,hteam,nissato99c,Tom,Nissalke,
+ignore,HEADER,player,ID,FIRSTNAME,LASTNAME,MIN,FGM,FGA,FTM,FTA,3FGM,3FGA,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TECHNICALFOUL
+stat,hteam,player,jonesri01,Rich,Jones,,9,20,2,2,0,,20,,7,7,,,,2,
+stat,hteam,player,kennego01,Goo,Kennedy,,5,6,2,4,0,,12,,14,1,,,,0,
+stat,hteam,player,dietrco01,Coby,Dietrick,,4,11,0,0,0,,8,,14,8,,,,3,
+stat,hteam,player,hamiljo01,Joe,Hamilton,,6,13,1,1,0,,13,,1,2,,,,0,
+stat,hteam,player,silasja01,James,Silas,,6,15,2,2,0,,14,,3,4,,,,2,
+stat,hteam,player,karlge01,George,Karl,,3,5,0,0,0,,6,,2,2,,,,0,
+stat,hteam,player,chambje01,Jerry,Chambers,,1,5,0,0,0,,2,,2,0,,,,1,
+stat,hteam,player,hillsi01,Simmie,Hill,,6,9,0,0,0,,12,,3,0,,,,0,
+stat,hteam,player,terrych01,Chuck,Terry,,0,,0,0,0,,0,,,0,,,,0,
+stat,hteam,player,natersw01,Swen,Nater,,1,,0,0,0,,2,,,0,,,,0,
+stat,hteam,player,brownro02,Roger,Brown,,3,3,0,0,0,,6,,4,0,,,,0,
+ignore,THEADER,MIN,FGM,FGA,FTM,FTA,FG3M,FG3A,PTS,OREB,REB,AST,PF,BLOCKS,TURNOVERS,STEALS,TEAMREBOUNDS,TECHNICALFOUL
+tstat,hteam,,44,,7,9,0,,95,,,24,35,,,8,,
+linescore,hteam,23,24,20,16,12,:,95
+info,note,Pacers originally won the game 84-83 in regulation. Spurs protested handling of shot clock during the final 30 seconds of the game. Commissioner Mike Storen ruled in their favor and the end of the game was replayed on December 2 prior to the regularly scheduled game that night.
+ignore,Indy Star does not have box score for the replayed game.
+info,techs,McGinnis
+sources,The Miami News TSN NGL
+ignore,TSN didn't publish the replayed box score until their January 26, 1974 edition.
+
+
+
+
+gamebxt
+version,1
+info,date,01/07/1976
+info,dayofweek,Wednesday
+info,rteam,New York Nets
+info,hteam,Virginia Squires
+info,title,
+info,arena,Norfolk Scope
+info,city,Norfolk
+info,state,Virginia
+info,country,USA
+info,attendance,4613
+info,ref,
+info,ref,
+info,starttime,
+info,timezone,
+info,radio,
+info,tv,
+coach,rteam,loughke01c,Kevin,Loughery,
+stat,rteam,player,ervinju01,Julius,Erving,,11,,0,0,4,,26,,,,,,,,
+stat,rteam,player,jonesri01,Rich,Jones,,7,,1,2,3,,18,,,,,,,,
+stat,rteam,player,hugheki01,Kim,Hughes,,0,,1,2,0,,1,,,,,,,,
+stat,rteam,player,willijo01,John,Williamson,,3,,1,2,0,,7,,,,,,,,
+stat,rteam,player,skinnal01,Al,Skinner,,5,,4,4,0,,14,,,,,,,,
+stat,rteam,player,buccige01,George,Bucci,,1,,0,0,0,,2,,,,,,,,
+stat,rteam,player,terrych01,Chuck,Terry,,2,,0,0,0,,4,,,,,,,,
+stat,rteam,player,basseti01,Tim,Bassett,,3,,0,1,0,,6,,,,,,,,
+stat,rteam,player,schaebi01,Billy,Schaeffer,,2,,0,0,0,,4,,,,,,,,
+stat,rteam,player,melchbi01,Bill,Melchionni,,1,,3,3,0,,5,,,,,,,,
+stat,rteam,player,natersw01,Swen,Nater,,1,,0,0,0,,2,,,,,,,,
+tstat,rteam,,36,,10,14,7,,89,,,,32,,,,,
+linescore,rteam,17,19,29,24,:,89
+coach,hteam,mussebi99c,Bill,Musselman,
+stat,hteam,player,jacksmi01,Mike,Jackson,,8,,16,18,0,,32,,,,,,,,
+stat,hteam,player,benneme01,Mel,Bennett,,10,,4,9,0,,24,,,,,,,,
+stat,hteam,player,greenmi01,Mike,Green,,6,,5,8,0,,17,,,,,,,,
+stat,hteam,player,taylofa01,Fatty,Taylor,,4,,4,6,1,,13,,,,,,,,
+stat,hteam,player,wisewi01,Willie,Wise,,6,,7,11,0,,19,,,,,,,,
+stat,hteam,player,burdeti01,Ticky,Burden,,0,,0,0,0,,0,,,,,,,,
+stat,hteam,player,wrighjo01,Joby,Wright,,0,,0,0,0,,0,,,,,,,,
+stat,hteam,player,vanbrja01,Jan,Van Breda Kolff,,0,,0,0,0,,0,,,,,,,,
+stat,hteam,player,eakinji01,Jim,Eakins,,0,,7,7,0,,7,,,,,,,,
+tstat,hteam,,34,,43,59,1,,112,,,,19,,,,,
+linescore,hteam,27,33,24,28,:,112
+info,techs,Loughery, Jones, Melchionni
+info,note,Game protested and partially replayed on January 24 prior to regularly scheduled game.
+sources,TSN
+
+gamebxt
+version,1
+info,date,01/24/1976
+info,dayofweek,Saturday
+info,rteam,New York Nets
+info,hteam,Virginia Squires
+info,title,
+info,arena,Norfolk Scope
+info,city,Norfolk
+info,state,Virginia
+info,country,USA
+info,attendance,8000
+info,ref,
+info,ref,
+info,starttime,
+info,timezone,
+info,radio,
+info,tv,
+coach,rteam,loughke01c,Kevin,Loughery,
+stat,rteam,player,ervinju01,Julius,Erving,,10,,10,11,4,,34,,,,,,,,
+stat,rteam,player,jonesri01,Rich,Jones,,4,,2,4,1,,11,,,,,,,,
+stat,rteam,player,hugheki01,Kim,Hughes,,2,,2,5,0,,6,,,,,,,,
+stat,rteam,player,willijo01,John,Williamson,,6,,1,2,0,,13,,,,,,,,
+stat,rteam,player,skinnal01,Al,Skinner,,4,,2,2,0,,10,,,,,,,,
+stat,rteam,player,terrych01,Chuck,Terry,,0,,0,0,0,,0,,,,,,,,
+stat,rteam,player,basseti01,Tim,Bassett,,3,,2,4,0,,8,,,,,,,,
+stat,rteam,player,schaebi01,Billy,Schaeffer,,2,,0,0,0,,4,,,,,,,,
+stat,rteam,player,melchbi01,Bill,Melchionni,,3,,1,1,1,,8,,,,,,,,
+stat,rteam,player,natersw01,Swen,Nater,,3,,0,1,0,,6,,,,,,,,
+tstat,rteam,,37,,20,30,6,,100,,,,30,,,,,
+linescore,rteam,17,19,32,32,:,100
+coach,hteam,beatyze01c,Zelmo,Beaty,
+stat,hteam,player,jacksmi01,Mike,Jackson,,4,,6,6,0,,14,,,,,,,,
+stat,hteam,player,benneme01,Mel,Bennett,,10,,6,11,0,,26,,,,,,,,
+stat,hteam,player,greenmi01,Mike,Green,,9,,2,4,0,,20,,,,,,,,
+stat,hteam,player,taylofa01,Fatty,Taylor,,3,,3,4,0,,9,,,,,,,,
+stat,hteam,player,wisewi01,Willie,Wise,,5,,4,6,0,,14,,,,,,,,
+stat,hteam,player,twardda01,Dave,Twardzik,,1,,0,0,0,,2,,,,,,,,
+stat,hteam,player,roberma01,Marv,Roberts,,1,,0,0,0,,2,,,,,,,,
+stat,hteam,player,burdeti01,Ticky,Burden,,4,,3,5,0,,11,,,,,,,,
+stat,hteam,player,wrighjo01,Joby,Wright,,0,,0,0,0,,0,,,,,,,,
+stat,hteam,player,vanbrja01,Jan,Van Breda Kolff,,0,,0,0,0,,0,,,,,,,,
+stat,hteam,player,eakinji01,Jim,Eakins,,0,,9,9,0,,9,,,,,,,,
+tstat,hteam,,37,,33,45,0,,107,,,,27,,,,,
+linescore,hteam,27,33,19,28,:,107
+info,note,Part of the third quarter and all of the fourth was replayed after the Nets successfully protested the outcome of their game on January 7. The league ruled that Willie Wise had indeed illegally re-entered the game after suffering an injury.
+sources,TSN
